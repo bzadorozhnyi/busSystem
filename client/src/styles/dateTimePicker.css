@@ -1,0 +1,12 @@
+.date-time-picker {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-time-picker-elements > * {
+    margin-left: 1rem;
+}
+
+.date-time-picker-elements > *:first-child {
+    margin-left: 0rem;
+}

@@ -1,0 +1,16 @@
+body {
+    margin: 2rem;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.info-block .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+.page-list h1 {
+    text-align: center;
+}
+
+.page-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

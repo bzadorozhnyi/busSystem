@@ -1,0 +1,22 @@
+.add-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.add-block .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.add-block > * {
+    margin: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
