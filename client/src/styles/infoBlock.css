@@ -14,3 +14,7 @@ body {
     flex-direction: row;
     align-items: center;
 }
+
+.tickets-list {
+    margin-top: 1rem;
+}

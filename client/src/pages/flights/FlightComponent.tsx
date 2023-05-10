@@ -83,7 +83,7 @@ function FlightTicketsList({ flightId }: { flightId: string }) {
     }
 
     return (
-        <div>
+        <div className={'tickets-list'}>
             <Button
                 onClick={handleAddTicketsButton}
                 variant='outlined'>Додати білети</Button>
@@ -98,6 +98,7 @@ function FlightTicketsList({ flightId }: { flightId: string }) {
                     <div>
                         <h3>Куплені білети:</h3>
                         <Button
+                            sx={{marginBottom: '1rem'}}
                             color='error'
                             onClick={handleDeleteButtonClick}
                             variant='outlined'>
